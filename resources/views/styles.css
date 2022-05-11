@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: calibri, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.table__container {
+    padding: 30px;
+}
+
+.table__header {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid black;
+    position: relative;
+}
+
+.table__header h2 {
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.table__sub-header {
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.table__dana-tujuan {
+    padding: 0 15px;
+    border: 1px solid black;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.table__dana-tujuan-num {
+    float: left;
+    border-right: 1px solid black;
+    width: 2%;
+}
+
+.table__dana-tujuan-text {
+    float: left;
+    padding-left: 20px;
+}
+
+.table__dana-tujuan-jumlah-dana {
+    float: right;
+    font-weight: bold;
+}
+
+.table__sub-heading {
+    text-align: center;
+    border: 1px solid black;
+}
+
+.table__content {
+    width: 100%;
+}
+
+.table__content tr,
+.table__content td {
+    border: 1px solid black;
+}
+
+.table__content {
+    border: 2px solid black;
+}
+
+.table__content tr {
+    height: 30px;
+}
+
+.table__content tr.data-bold {
+    font-weight: bold;
+}
+
+.table__content tr.data-highlighted {
+    background: lightgrey;
+}
+
+.table__content td {
+    padding: 3px;
+}
+
+tr.table__content-bottom,
+.table__content-bottom td {
+    border: 0;
+}
+
+.no {
+    width: 2%;
+}
+
+.rek {
+    width: 10%;
+}
+
+.kegiatan {
+    width: 18%;
+}
+
+.perubahan {
+    width: 10%;
+    text-align: right;
+}
+
+.pergeseran {
+    width: 10%;
+    text-align: right;
+}
+
+.anggaran {
+    width: 10%;
+    text-align: right;
+}
+
+.akumulasi {
+    width: 10%;
+    text-align: right;
+}
+
+.pencairan {
+    width: 10%;
+    text-align: right;
+}
+
+.sisa {
+    width: 10%;
+    text-align: right;
+}
+
+.pptk {
+    width: 20%;
+    text-align: right;
+}
+
+.table__footer {
+    padding-top: 30px;
+}
+
+.table__tanggal {
+    float: right;
+    margin-right: 120px;
+}
+
+.table__sign-container {
+    text-align: center;
+    clear: right;
+    margin-top: 30px;
+}
+
+.table__sign-left {
+    float: left;
+    margin-left: 100px;
+}
+
+.table__sign-right {
+    float: right;
+    margin-right: 100px;
+}
+
+.table__sign {
+    height: 80px;
+}
